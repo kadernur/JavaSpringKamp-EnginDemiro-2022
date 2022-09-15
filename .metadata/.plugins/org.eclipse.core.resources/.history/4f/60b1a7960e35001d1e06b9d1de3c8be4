@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int[]sayilar=new int[] {1,2,5,7,9,0};
+		int aranacak=7;
+		
+		for(int aranan:sayilar)
+		{
+			if(aranacak==aranan)
+			{
+				System.out.println("aranan sayı dizede mevcut");
+				break;
+			}
+			else
+			{
+				System.out.println("sayı dizide mevcut değil");
+			}
+		}
+
+	}
+
+}
