@@ -59,6 +59,16 @@ public class Main {
 		individualCustomer.setLastName("Tekin");
 		
 		
+		CorporateCustomer corporateCustomer=new CorporateCustomer();
+		corporateCustomer.setId(2);
+		corporateCustomer.setCompanyName("Kodlama.io");
+		corporateCustomer.setPhone("053258455");
+		corporateCustomer.setTaxNumber("11111111111");
+		corporateCustomer.setCustomerNumber("54321");
+		
+		Customer[] customer= { individualCustomer,corporateCustomer};
+		
+		
 		
 		
 		
